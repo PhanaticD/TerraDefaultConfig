@@ -30,9 +30,4 @@ flora:
       min: 62
       max: 255
 
-tree-chance: 1
-tree-density: 0
-trees:
-  "TERRA:OAK_MEDIUM": 2
-
 # Carving and ores covered by super biome

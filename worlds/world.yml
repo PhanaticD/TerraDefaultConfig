@@ -1,54 +1,35 @@
 grids:
-  - TROPICAL
-  - TROPICAL
-  - TROPICAL
-  - TROPICAL
-  - TROPICAL
-  - TROPICAL
-  - TROPICAL
-  - TROPICAL
-  - TROPICAL
-  - TROPICAL
-  - TROPICAL
-  - TROPICAL
-  - TROPICAL
-  - TROPICAL
-  - RIVER_TROPIC
-  - TEMPERATE
-  - TEMPERATE
-  - TEMPERATE
-  - TEMPERATE
-  - TEMPERATE
-  - TEMPERATE
-  - TEMPERATE
-  - TEMPERATE
-  - TEMPERATE
-  - TEMPERATE
-  - TEMPERATE
-  - TEMPERATE
-  - TEMPERATE
-  - TEMPERATE
-  - RIVER
-  - COLD_EDGE
-  - COLD_EDGE
-  - COLD_EDGE
-  - COLD
-  - COLD
-  - COLD
-  - COLD
-  - COLD
-  - COLD
-  - COLD
-  - COLD
-  - COLD
-  - COLD
-  - COLD
+  - LAND
+  - LAND
+  - LAND
+  - LAND
+  - LAND
+  - LAND
+  - LAND
+  - LAND
+  - LAND
+  - LAND
+  - LAND
+  - LAND
+  - LAND
+  - LAND
+  - BEACH
+  - OCEAN
+  - OCEAN
+  - OCEAN
+  - OCEAN
+  - OCEAN
+  - OCEAN
+  - OCEAN
+  - OCEAN
+  - OCEAN
+  - OCEAN
 sea-level: 63
 biome-resolution: 4
 frequencies:
-  grid-x: 512
-  grid-z: 1024
-  zone: 3072
+  grid-x: 1536
+  grid-z: 1536
+  zone: 2048
 image:
   use-image: false
   align: center
