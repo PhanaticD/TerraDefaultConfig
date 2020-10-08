@@ -1,7 +1,5 @@
-noise-equation: "((-((y / 62)^2)) + 1) + ((noise2(x, z)+0.5) / 3) + max(min(floor(noise3(x, y, z)*12 + noise2(x, z)*22), 18)/10, 0)"
-extends: "BASIC_ORES"
-id: "MESA"
-name: "Mesa"
+extends: "RIDGE_ABSTRACT"
+id: "RIDGES"
 
 palette:
   - BEDROCK: 0
@@ -24,9 +22,10 @@ palette:
   - "BLOCK:minecraft:orange_terracotta": 80
   - "BLOCK:minecraft:terracotta": 76
   - RED_DESERT: 72
-vanilla: BADLANDS
+vanilla: PLAINS
 
-flora-chance: 2
+erodible: true
+
 flora:
   chance: 2
   attempts: 1
