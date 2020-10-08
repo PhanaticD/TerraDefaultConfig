@@ -6,40 +6,35 @@ palette:
   - BEDROCK_MOST: 1
   - BEDROCK_HALF: 2
   - BEDROCK_LITTLE: 3
-  - RED_DESERT: 255
-  - "BLOCK:minecraft:red_terracotta": 128
-  - "BLOCK:minecraft:orange_terracotta": 124
-  - "BLOCK:minecraft:terracotta": 120
-  - "BLOCK:minecraft:yellow_terracotta": 116
-  - "BLOCK:minecraft:red_terracotta": 112
-  - "BLOCK:minecraft:orange_terracotta": 108
-  - "BLOCK:minecraft:terracotta": 104
-  - "BLOCK:minecraft:red_terracotta": 100
-  - "BLOCK:minecraft:orange_terracotta": 96
-  - "BLOCK:minecraft:terracotta": 92
-  - "BLOCK:minecraft:yellow_terracotta": 88
-  - "BLOCK:minecraft:red_terracotta": 84
-  - "BLOCK:minecraft:orange_terracotta": 80
-  - "BLOCK:minecraft:terracotta": 76
-  - RED_DESERT: 72
-vanilla: PLAINS
+  - RIDGES: 255
+vanilla: SAVANNA
 
 erodible: true
 
 flora:
-  chance: 2
+  chance: 40
   attempts: 1
   items:
-    DEAD_BUSH:
-      weight: 1
+    TALL_GRASS:
+      weight: 15
       y:
         min: 62
-        max: 84
-    SMALL_ROCK:
-      weight: 1
+        max: 128
+    GRASS:
+      weight: 70
       y:
         min: 62
-        max: 84
+        max: 128
+
+trees:
+  chance: 80
+  density: 1
+  items:
+    ACACIA:
+      weight: 1
+      y:
+        min: 58
+        max: 128
 slabs:
   enable: true
   threshold: 0.015
@@ -48,13 +43,3 @@ slabs:
   use-stairs-if-available: true
   stair-palettes:
     - "minecraft:red_sand": "BLOCK:minecraft:red_sandstone_stairs"
-
-trees:
-  chance: 50
-  density: 1
-  items:
-    CACTUS:
-      weight: 1
-      y:
-        min: 58
-        max: 72
