@@ -1,0 +1,5 @@
+files:
+  spruce1: 1
+id: SPRUCE_CUSTOM
+spawnable:
+  - "minecraft:grass_block"

@@ -1,0 +1,41 @@
+id: TAIGA
+noise-equation: "((-((y / 62)^2)) + 1) + ((noise2(x, z)+0.5) / 1.5)"
+flora:
+  chance: 40
+  attempts: 1
+  items:
+    TALL_GRASS:
+      weight: 15
+      y:
+        min: 62
+        max: 84
+    GRASS:
+      weight: 75
+      y:
+        min: 62
+        max: 84
+    POPPY:
+      weight: 5
+      y:
+        min: 62
+        max: 84
+    LEAVES:
+      weight: 25
+      y:
+        min: 62
+        max: 84
+
+trees:
+  chance: 100
+  density: 5
+  items:
+    SPRUCE:
+      weight: 1
+      y:
+        min: 58
+        max: 84
+    LARGE_SPRUCE:
+      weight: 1
+      y:
+        min: 58
+        max: 84
